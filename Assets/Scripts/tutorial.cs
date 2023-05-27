@@ -43,10 +43,9 @@ public class tutorial : MonoBehaviour
             if (itt_z + itt_q + itt_s + itt_d == 4 && itt == 0){
                 isImageVisible = !isImageVisible;
                 itt = 1;
-                tuto1Termine = true;
 
             }
-        } else if (tutorialStep == 1 && tutorial.tuto1Termine == true){
+        } else if (tutorialStep == 1){
             if (isImageVisible) {
                 imageComponent.enabled = true;
             } else {
@@ -54,10 +53,9 @@ public class tutorial : MonoBehaviour
             }
             if (Keyboard.current[Key.Space].wasPressedThisFrame && (itt_z == 0)){
                 isImageVisible = !isImageVisible;
-                tuto2Termine = true;
                 itt_z = 1;
             }
-        } else if (tutorialStep == 2 && tutorial.tuto2Termine == true){
+        } else if (tutorialStep == 2){
             if (isImageVisible) {
                 imageComponent.enabled = true;
             } else {
@@ -65,7 +63,6 @@ public class tutorial : MonoBehaviour
             }
             if (Keyboard.current.eKey.wasPressedThisFrame && (itt_z == 0)){
                 isImageVisible = !isImageVisible;
-                tuto3Termine = true;
                 itt_z = 1;
             }
         }
