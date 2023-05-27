@@ -152,7 +152,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260006557}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -178,14 +178,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 29d11c4f90b52c04ca62d0a004c8f12a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -212,16 +212,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 260006557}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4561e6c45169764ba6327f7123b8330, type: 3}
+  m_Script: {fileID: 11500000, guid: 3cc1ab2838942da44be973a5f24b3c35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tutorialStep: 0
-  step1: 0
-  step2: 0
-  step3: 0
-  tuto1Termine: 0
-  tuto2Termine: 0
-  tuto3Termine: 0
 --- !u!1 &505333927
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,7 +901,7 @@ GameObject:
   - component: {fileID: 957013860}
   - component: {fileID: 957013863}
   - component: {fileID: 957013862}
-  - component: {fileID: 957013861}
+  - component: {fileID: 957013864}
   m_Layer: 5
   m_Name: Tuto3
   m_TagString: Untagged
@@ -936,25 +929,6 @@ RectTransform:
   m_AnchoredPosition: {x: 328.77026, y: -81.35976}
   m_SizeDelta: {x: 244.9595, y: 314.2195}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &957013861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 957013859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4561e6c45169764ba6327f7123b8330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tutorialStep: 2
-  step1: 0
-  step2: 0
-  step3: 0
-  tuto1Termine: 0
-  tuto2Termine: 0
-  tuto3Termine: 0
 --- !u!114 &957013862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -968,14 +942,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.34117648, g: 0.34117648, b: 0.34117648, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 93cbcf89b823d3a4d96daecd17513447, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -993,6 +967,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957013859}
   m_CullTransparentMesh: 1
+--- !u!114 &957013864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957013859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de3a8698817264e49a1f27b123ed69c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1083422167
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,7 +1668,7 @@ GameObject:
   - component: {fileID: 2147482009}
   - component: {fileID: 2147482012}
   - component: {fileID: 2147482011}
-  - component: {fileID: 2147482010}
+  - component: {fileID: 2147482013}
   m_Layer: 5
   m_Name: Tuto2
   m_TagString: Untagged
@@ -1710,25 +1696,6 @@ RectTransform:
   m_AnchoredPosition: {x: 328.77026, y: -81.35976}
   m_SizeDelta: {x: 244.9595, y: 314.2195}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2147482010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2147482008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4561e6c45169764ba6327f7123b8330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tutorialStep: 1
-  step1: 0
-  step2: 0
-  step3: 0
-  tuto1Termine: 0
-  tuto2Termine: 0
-  tuto3Termine: 0
 --- !u!114 &2147482011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1742,14 +1709,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.34117648, g: 0.34117648, b: 0.34117648, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 6d0212de27386eb4e90a97b784e77868, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1767,6 +1734,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2147482008}
   m_CullTransparentMesh: 1
+--- !u!114 &2147482013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147482008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e9aa68a92394694b8eab0e8f4977e15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &60889539378096550
 PrefabInstance:
   m_ObjectHideFlags: 0
